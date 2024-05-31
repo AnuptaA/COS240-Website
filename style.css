@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Open Sans", Helvetica, sans-serif, Arial;
+}
+
+nav {
+  background-color: #20364d;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 2.5%;
+  padding-bottom: 15px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999px;
+}
+
+.shield {
+  height: 50px;
+  width: auto;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo p {
+  font-size: 30px;
+  color: white;
+  padding-left: 5px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0px 10px;
+  transition: all 0.3s ease 0s;
+}
+
+nav a {
+  color: white;
+  font-weight: bold;
+  font-family: "Open Sans", Helvetica, sans-serif, Arial;
+}
+
+nav a:hover {
+  transition: all 0.3s ease 0s;
+  color: #e77500;
+}
+
+nav::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 5px;
+  width: 100%;
+  background-color: #e77500;
+}
+
+main {
+  padding: 0px 4%;
+  padding-top: 100px;
+  padding-bottom: 60px;
+}
+
+.precept-questions {
+  color: red;
+}
+
+.precepts-table {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: fit-content;
+  font-size: 0.9em;
+  border-collapse: collapse;
+}
+
+.precepts-table th,
+.precepts-table td {
+  text-align: center;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.precepts-table tbody tr:nth-of-type(even) {
+  background-color: #eeeeee;
+}
+
+#books ul {
+  padding-left: 5%;
+}
+
+.bookscont {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: fit-content;
+}
+
+.llm,
+.ocw {
+  height: 250px;
+  padding-top: 10px;
+  width: auto;
+}
+
+.Electronic-Communication ul,
+.Assignment-Conduct ul {
+  padding-top: 5px;
+  padding-left: 5%;
+}
+
+.Electronic-Communication ul li,
+.Assignment-Conduct ul li {
+  padding-bottom: 5px;
+}
+
+.grading-table-container {
+  display: flex;
+  padding-top: 10px;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.grading-table-container td {
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2.5px;
+  padding-bottom: 2.5px;
+}
+
+.grading-table-container tbody tr:not(:first-child) {
+  background-color: #eeeeee;
+}
+
+.calendar-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.calendar {
+  border-collapse: collapse;
+  width: 80%;
+  max-width: 900px;
+}
+
+.calendar thead th,
+.calendar tbody td {
+  border: 1px solid #eeeeee;
+  padding: 10px;
+  text-align: center;
+  width: 12.5%;
+  height: 20px;
+  color: black;
+}
+
+.calendar thead th {
+  font-weight: 500;
+}
+
+.calendar tbody td {
+  height: 20px;
+  vertical-align: top;
+}
