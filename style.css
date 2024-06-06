@@ -38,6 +38,21 @@ nav {
   padding-left: 5px;
 }
 
+.mode {
+  height: 30px;
+  width: auto;
+}
+
+.mode-btn {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  cursor: pointer;
+}
+
+li .mode-btn {
+  padding-left: 15px;
+}
+
 nav ul {
   display: flex;
   align-items: center;
